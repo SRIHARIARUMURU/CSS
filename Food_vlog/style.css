@@ -12,13 +12,13 @@
     z-index: auto;
     text-align: center;
     background-color: white;
-
+    
 }
 .a {
   display: inline-block;
   width: 250px;
   text-align: center;
-  /* margin-left: 100px; */
+  margin-left: 100px;
   font-family:sans-serif
 }
 
@@ -33,7 +33,8 @@
 .mini3{
     text-align: center;
     width: auto;
-    
+    width: 700px;
+    border: 50% solid rgb(245, 0, 0);
 }
 .foot{
     display: inline-block;
