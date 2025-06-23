@@ -1,0 +1,89 @@
+*
+{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    margin-top: 0;
+    padding: 0;
+}
+.navb{
+    font-family: sans-serif,monospace;
+    margin-left: 5px;
+    padding: 10px;
+    position: fixed;
+    background-color: white;
+    width:100%;
+    height: 50px;
+    font-size: 20px;
+    text-align: left;
+    z-index: 3;
+}
+.BR_Architects{
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    /* z-index: 0; */
+}
+#img{
+   width: 99%; 
+   margin: 10px;
+}
+#name1{
+    position: absolute; 
+    left: 45%; 
+    top: 57%; 
+    font-size: 40px; 
+    font-family: sans-serif,monospace;
+    color: white;
+    background-color: black;
+    
+}
+#name2{
+    position: absolute; 
+    left: 50%; 
+    top: 57%; 
+    font-size: 40px; 
+    font-family: sans-serif,monospace;
+    color: white;
+    
+}
+.mini1,.mini2{
+    width:100%;
+    border-color: rgb(255, 0, 0);
+}
+.imgs{
+    display: inline-block;
+    border-color: rgb(42, 165, 42);
+    margin-left: 15px;
+    width: 23%;
+    position: relative;
+    
+}
+/* img{
+    position: absolute;
+} */
+.about{
+    padding: 20px;
+}
+.house{
+    position: absolute;
+    color:white;
+    background-color: black;
+    text-align: left;
+    margin-top: 0;
+}
+.last{
+    margin-left: 15px;
+}
+.footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
