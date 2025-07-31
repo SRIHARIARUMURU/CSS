@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100vh;
+    gap: 10px;
+}
+
+.HEADER {
+
+    grid-column: 1/3;
+}
+
+.ARTICLE {
+
+    grid-row: 2/4;
+
+}
+
+.MAIN {
+    grid-column: 1/3;
+}
+
+.FOOTER {
+
+    grid-column: 1/3;
+}
+
+.a {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    background-color: darkblue;
+}
+p{
+    text-align: center;
+}
+/* -----------------------------------------------------flex--------------------------------------------------------------- */
+
+.main2 {
+    display: flex;
+    height: 100vh;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.HEADER1 {
+    width: 100vw;
+    height: 100px;
+}
+
+.ARTICLE1 {
+    width: 50%;
+    height: 250px;
+
+}
+
+.TEXT11 ,.TEXT21{
+    width: 750px;
+    height: 115px;
+}
+.sub{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:20px
+}
+.MAIN1 {
+    width: 100vw;
+    height: 200px;
+}
+
+.FOOTER1 {
+    width: 100vw;
+    height: 100px;
+}
+
+.a1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    background-color: red;
+}
