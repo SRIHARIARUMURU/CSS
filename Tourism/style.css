@@ -189,7 +189,7 @@
 }
 }
 /* -------------------------------------------------- Tab ------------------------------------------------------------------ */
-@media screen and (min-width:426px) and (max-width:769px){
+@media screen and (min-width:426px) and (max-width:1025px){
     
     .bg1{
     width: 100%;
