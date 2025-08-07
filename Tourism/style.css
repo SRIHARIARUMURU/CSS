@@ -51,7 +51,7 @@
     color: white;
     cursor: pointer;
 }
-/* ------------------- */
+/* ------------------------------------------------------------------------------------------------ */
 .bg1{
     width: 100vw;
     height: 100vh;
@@ -73,6 +73,148 @@
     display: flex;
     column-gap: 2%;
     justify-content: center;
+}
+
+.c img{
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.c{
+    width:300px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: white;
+    justify-content: space-between;
+    
+}
+
+.cards h3{
+    color :black;
+}
+
+.c:hover{
+    box-shadow: 10px 10px 40px 5px grey;
+    transform: scale(1.01);
+    
+}
+
+.butt{
+   width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: purple;
+    font-size: large;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+
+
+/* --------------------------------media queries- mobile------------------------------------------- */
+
+@media screen and (min-width:320px) and (max-width:426px){
+    .bg1{
+    width: 100vw;
+    height: 100%;
+    display: grid;
+    background-image: url(./bg2.png);
+    background-size: cover;
+    row-gap: 2%
+}
+
+
+.head1{
+    margin-top: 5%;
+    width: 100vw;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+}
+
+.cards{
+    display: flex;
+    row-gap: 2%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.c img{
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.c{
+    width:75%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: white;
+    justify-content: space-between;
+    
+}
+
+.cards h3{
+    color :black;
+}
+
+.c:hover{
+    box-shadow: 10px 10px 40px 5px grey;
+    transform: scale(1.01);
+    
+}
+
+.butt{
+   width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: purple;
+    font-size: large;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+}
+/* -------------------------------------------------- Tab ------------------------------------------------------------------ */
+@media screen and (min-width:426px) and (max-width:769px){
+    
+    .bg1{
+    width: 100%;
+    height: 200%;
+    /* display: grid; */
+    background-image: url(./bg2.png);
+    /* background-size: cover; */
+    row-gap: 5%;
+}
+
+
+.head1{
+    margin-top: 2%;
+    width: 100%;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+}
+
+.cards{
+    display: flex;
+    column-gap: 4%;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 4%;
 }
 
 .c img{
@@ -115,4 +257,5 @@
     color: white;
     cursor: pointer;
     margin-bottom: 15px;
+}
 }
